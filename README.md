@@ -1,1 +1,1 @@
-Interactive JavaScript "Guess That Number!" game with (saved) high scores, helpful hints following each guess. Built with VS Code, incorporating HTML and CSS to enhance the appearance of the game.
+Interactive JavaScript "Guess That Number!" game with (saved) high scores, helpful hints following each guess. Built with VS Code, incorporating HTML and CSS, DOM manipulation, click events, to enhance the appearance of the game. All game details appropriately to clear following each game, but I will keep the High Score stored. Other details will start fresh with new game.
