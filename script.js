@@ -56,11 +56,16 @@ document.querySelector('.check').addEventListener('click', function () {
   }
 });
 
+document.querySelector('.again').addEventListener('click', function () {
+  score = 20;
+  secretNumber = Math.trunc(Math.random() * 20) + 1;
+  document.querySelector('.message').textContent = 'Start guessing...';
+
 ///////////////////////////
 // Coding Challenge #1
 
 /*
-Implement a game rest functionality so that the player can make a new guess! Here's how:
+Implement game restart functionality so that player can make a new guess! Here's how:
 
 1. Select the element with the 'again' class and attach a click event handler.
 2. In the handler function, restore initial values of the score and number variables.
